@@ -1,0 +1,165 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+#navbar{
+     background-color: rgb(126, 178, 180);
+     position: fixed;
+     width: 100vw;
+}
+
+#navbar ul{
+     margin: 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#navbar li{
+     list-style: none;
+     padding: 15px 15px;
+}
+
+#navbar li:hover{
+     background-color: rgb(53, 76, 119);
+}
+
+
+#navbar a{
+     text-decoration: none;
+     color: aliceblue;
+}
+
+#welcome-section{
+     width: 100vw;
+     height: 100vh;
+     background: url("https://images.unsplash.com/photo-1604964432806-254d07c11f32?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80");
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+#welcome-section h1{
+     font-size: 60px;
+     color: azure;
+}
+
+#welcome-section p {
+     font-size: 20px;
+     color: rgb(145, 248, 255);
+}
+
+#work{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+#work h1{
+     background:rgb(126, 178, 180);
+     width: 100vw;
+     text-align: center;
+     padding: 10px;
+}
+
+#projects{
+     display: grid;
+     width: 100vw;
+     height: 100vh;
+     grid-template-columns: auto auto auto;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+}
+
+#projects h3{
+     background:rgb(33, 34, 68);
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 200px;
+     padding: 10px;
+}
+
+.project{
+     width: 30vw;
+     height: 40vh;
+}
+
+.project1{
+     background: url("./img/calc.png");
+     background-size: cover;
+     background-repeat: no-repeat;     
+}
+.project2{
+     background: url("./img/map.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+.project3{
+     background: url("./img/random-quote-machine.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+.project4{
+     background: url("./img/tic-tac-toe.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+.project5{
+     background: url("./img/Untitled.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+.project6{
+     background: url("./img/wiki.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+
+.btn {
+     margin: 50px;
+     padding: 50px;
+}
+
+#contact{
+     width: 100vw;
+     height: 50vh;
+     background-color: #444;
+     color: rgb(126, 178, 180);
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+}
+
+.social i{
+     font-size: 40px;
+     margin: 10px;
+}
+
+.fb:hover{
+     color: cornflowerblue;
+     transform: scale(1.2);
+     transform: rotateY(180deg);
+}
+.git:hover{
+     color: cornflowerblue;
+     scale: 1.5;
+     transform: rotateY(180deg);
+}
+.wt:hover{
+     color: cornflowerblue;
+     transform: scale(1.2);
+     transform: rotateY(180deg);
+}
+.email:hover{
+     color: cornflowerblue;
+}
